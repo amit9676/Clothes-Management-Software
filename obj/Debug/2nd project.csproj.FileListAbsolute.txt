@@ -1,0 +1,21 @@
+F:\2nd project\obj\Debug\2nd project.csprojAssemblyReference.cache
+F:\2nd project\bin\TypeScriptHTMLApp1.dll.config
+F:\2nd project\bin\TypeScriptHTMLApp1.dll
+F:\2nd project\bin\TypeScriptHTMLApp1.pdb
+F:\2nd project\obj\Debug\2nd project.csproj.CoreCompileInputs.cache
+F:\2nd project\obj\Debug\TypeScriptHTMLApp1.dll
+F:\2nd project\obj\Debug\TypeScriptHTMLApp1.pdb
+F:\2nd project\2nd project\bin\TypeScriptHTMLApp1.dll.config
+F:\2nd project\2nd project\bin\TypeScriptHTMLApp1.dll
+F:\2nd project\2nd project\bin\TypeScriptHTMLApp1.pdb
+F:\2nd project\2nd project\obj\Debug\2nd project.csprojAssemblyReference.cache
+F:\2nd project\2nd project\obj\Debug\2nd project.csproj.CoreCompileInputs.cache
+F:\2nd project\2nd project\obj\Debug\TypeScriptHTMLApp1.dll
+F:\2nd project\2nd project\obj\Debug\TypeScriptHTMLApp1.pdb
+E:\2nd project\2nd project\bin\TypeScriptHTMLApp1.dll.config
+E:\2nd project\2nd project\bin\TypeScriptHTMLApp1.dll
+E:\2nd project\2nd project\bin\TypeScriptHTMLApp1.pdb
+E:\2nd project\2nd project\obj\Debug\2nd project.csprojAssemblyReference.cache
+E:\2nd project\2nd project\obj\Debug\2nd project.csproj.CoreCompileInputs.cache
+E:\2nd project\2nd project\obj\Debug\TypeScriptHTMLApp1.dll
+E:\2nd project\2nd project\obj\Debug\TypeScriptHTMLApp1.pdb

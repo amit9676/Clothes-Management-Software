@@ -1,0 +1,163 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TypeScriptHTMLApp1</RootNamespace>
+    <AssemblyName>TypeScriptHTMLApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>False</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="Images\buttonshirt.jpg" />
+    <Content Include="Images\caskethat.jpg" />
+    <Content Include="Images\belt.jpg" />
+    <Content Include="Images\coat.jpg" />
+    <Content Include="Images\comfortshoes.jpg" />
+    <Content Include="Images\dress.jpg" />
+    <Content Include="Images\elegantshoes.jpg" />
+    <Content Include="Images\eveningdress.jpg" />
+    <Content Include="Images\heels.jpg" />
+    <Content Include="Images\jeans.jpg" />
+    <Content Include="Images\shortpants.jpg" />
+    <Content Include="Images\skirt.jpg" />
+    <Content Include="Images\sportshoes.jpg" />
+    <Content Include="Images\trainingpants.jpg" />
+    <Content Include="Images\tshirt.jpg" />
+    <Content Include="Images\womenshirt.jpg" />
+    <Content Include="index.html" />
+    <Content Include="Images\sunglasses.jpg" />
+    <Content Include="Images\readingglasses.jpg" />
+    <Content Include="Images\tophat.jpg" />
+    <Content Include="Images\jacket.jpg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="Belt\Belt.ts" />
+    <TypeScriptCompile Include="Belt\BuckleMaterial.ts" />
+    <TypeScriptCompile Include="FemaleLegWear\Dress.ts" />
+    <TypeScriptCompile Include="FemaleLegWear\EveningDress.ts" />
+    <TypeScriptCompile Include="FemaleLegWear\FemaleLegWear.ts" />
+    <TypeScriptCompile Include="FemaleLegWear\Skirt.ts" />
+    <TypeScriptCompile Include="FemaleLegWear\SkirtType.ts" />
+    <TypeScriptCompile Include="Generator.ts" />
+    <TypeScriptCompile Include="Hats\CasketHat.ts" />
+    <TypeScriptCompile Include="Clothes.ts" />
+    <TypeScriptCompile Include="Belt\Dimentions.ts" />
+    <TypeScriptCompile Include="Garments.ts" />
+    <TypeScriptCompile Include="Glasses\Glasses.ts" />
+    <TypeScriptCompile Include="Hats\Hat.ts" />
+    <TypeScriptCompile Include="OuterWear\Coat.ts" />
+    <TypeScriptCompile Include="OuterWear\Jacket.ts" />
+    <TypeScriptCompile Include="OuterWear\OuterWear.ts" />
+    <TypeScriptCompile Include="Glasses\ReadingGlasses.ts" />
+    <TypeScriptCompile Include="Glasses\SunGlasses.ts" />
+    <TypeScriptCompile Include="Hats\TopHat.ts" />
+    <TypeScriptCompile Include="Pants\Jeans.ts" />
+    <TypeScriptCompile Include="Pants\Pants.ts" />
+    <TypeScriptCompile Include="Pants\ShortPants.ts" />
+    <TypeScriptCompile Include="Pants\TrainingPants.ts" />
+    <TypeScriptCompile Include="Shirt\ButtonShirt.ts" />
+    <TypeScriptCompile Include="Shirt\Shirt.ts" />
+    <TypeScriptCompile Include="Shirt\TShirt.ts" />
+    <TypeScriptCompile Include="Shirt\WomenShirt.ts" />
+    <TypeScriptCompile Include="Shoes\ComfortShoes.ts" />
+    <TypeScriptCompile Include="Shoes\ElegantShoes.ts" />
+    <TypeScriptCompile Include="Shoes\FlatShoes.ts" />
+    <TypeScriptCompile Include="Shoes\Heels.ts" />
+    <TypeScriptCompile Include="Shoes\HeelType.ts" />
+    <TypeScriptCompile Include="Shoes\ElegantShoesMaterial.ts" />
+    <TypeScriptCompile Include="Shoes\Shoes.ts" />
+    <TypeScriptCompile Include="Shoes\SportShoes.ts" />
+    <TypeScriptCompile Include="Test.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10202</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10202/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
